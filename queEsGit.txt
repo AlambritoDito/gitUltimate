@@ -1,0 +1,19 @@
+Asi es, voy a tomar mis apuntes en .txt desde vim por que me gusta hacerle a la mamada, sirve que utilizo mas vim y veo si utilizo nano, emacs, etc a ver cual me gusta mas.
+
+Git es un controlador de versiones, el cual como lo dice su nombre es mucho mas sencillo para manejar archivos,creado   por la asociacion linux, de hecho es el controlador de versiones que lleva el kernel de Linux.
+
+Git funciona muy bien con archivos de texto plano (TXT), como este archivo, y como no se me ocurria que programar de momento (y tengo que mejorar mucho) voy a utilizar esto para git. vamos a empezar a ver los primeros comandos:
+
+git init: sirve para empezar el repositorio
+git add: sirve para agregar archivos (de preferencia texto plano, mejor que los binarios para git
+git commit -m: sirve para mandar los cambios que hice
+
+un atajo es que cuando utilizas git add . agregas todos los que hiciste cambios.
+
+git status: puedes ver el estatus actual
+
+git show: te muestra todos los cambios historicos hechos
+
+git log 'nombre.txt' 
+
+Git si permite guardar binario pero es mejor el texto plano por la presicion

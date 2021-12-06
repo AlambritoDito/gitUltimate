@@ -1,0 +1,29 @@
+Como configurar quien eres en git:
+
+git config: con eso podemos ver todas las configuraciones
+
+git config --list para ver la configuracion actual
+
+git config --global user.name "Tu nombre" #Nombre que quedara registrado
+
+git config --global user.mail "Correo"
+
+para ver la historia de un archivo es desde git log 'archivo.txt' a lo que obtenemos el codigo del commit y podemos compararlos con el siguiente codigo
+git diff 'idCommit1' 'idCommit2'
+
+
+git show 'archivo': los cambios que han sucedido con un archivo
+
+descubri que puedes salir mas facil de vim con escape & shift + z + z
+
+como regresar a un checkpoint, con git reset podemos hacerlo, hay 2 formas --soft --hard
+tener mucho cuidado con --hard ya que se puede perder todo el trabajo
+
+cuando utilizamos 'git log' podemos agregar --stat para verlo mas facil
+
+para poder ver un archivo antes sin 'reset' utilizamos git checkout y es facil regresar al de 'master' solo con 
+git checkout master, si queremos regresar a ese punto solo tendremos que hacer un commit para que queden guardados los
+cambios es mucho mas seguro asi
+
+git rm nos ayuda a eliminar archivos de git "Sin eliminar del sistema de versiones", por lo que solo necesitamos un
+chekout para recuperarlo, para usar git rm necesitamos utilizarlo con flags tanto con --cached que esto solo los elimina de git y no de nuestro disco duro y la otra forma --force que en esta borra tambien el archivo

@@ -1,0 +1,27 @@
+git clone 'url' //Con eso podemos clonar un repositorio
+
+git push //Sirve para enviarlo al repositorio remoto
+
+git feth //Lo trae a mis archivos pero no lo copia, para eso lo tenemos que fucionar con el siguiente comando
+
+git merge //Sirve para unirlo con mi trabajo pero para no poner 2 comandos tenemos el siguiente
+
+git pull //Este hace el comando feth y merge para 'jalarlo'
+
+git commit -am //agrega los archivos que tuvieron un cambio en automatico
+
+voy a crear una rama de Master
+
+Esto lo estoy escribiendo desde Master, lo que dara conflicto y xd
+esto lo estoy creando desde la rama 'primera rama', luego le hare un merge a master
+
+Head solo es el ultimo commit de la rama en la que este
+
+Voy a hacer otro cambio aqui en 'primeraRama' y otro en 'master' para luego hacer el merge
+
+asi es como se ve cuando tenemos un conflicto y es facil arreglarlo, solo te quedas con lo que quieres y borras el
+resto
+
+git push origin main //Para hacer el push
+
+pit pull origin main //Para hacer el main
