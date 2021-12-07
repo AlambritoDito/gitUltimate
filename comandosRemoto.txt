@@ -26,12 +26,42 @@ git push origin main //Para hacer el push
 
 pit pull origin main //Para hacer el main
 
-<<<<<<< HEAD
 cuando  se trabaja con ramas estas se tienen que enviar a gitHub una por una 'git pull origin <nombreRama>'
-=======
 git stash //Si me equivoque de rama donde queria esos cambios puedo utilizarlo para almacenar los cambios actuales
 
 git stash list //Es para ver los que tengo en stash
 
+git stash pop //Sirve para obtener los cambios que estaban
 
->>>>>>> 0afa606adb7dea9bf4ffb046e8a821e8ddb88507
+git stash branch <nombreRama> // Esto me sirve para hacer el branch en una nueva rama
+
+git stash drop //elimina el stash
+
+git clean --dry-run //Te dice que es lo que git planea borrar
+
+git clean -f //Borra archivos duplicados
+
+//Mala practica, no la uses
+git cherry-pick <hash-commit> //Hace un estilo 'merge' que solo se trae algunos commit pero esto me puede dar conflicto a la hora del merge por que esta duplicado
+
+git config --global alias.'nombreAlias' "comando" //Esto sirve para crear alias dentro de git, el nombreAlias es sin comillas
+
+git 'comando' --help //Para ver la entrada en el manual
+
+git blame 'archivo' -L10,15 -c //Sirve para saber quien edito las lineas de un archivo, -L sirve para ver solo algunas lineas, -c para que se vea mejor
+
+git branch -r //Sirve para ver las ramas remotas
+
+git branch -a //Sirve para ver tanto las ramas locales como las remotas
+
+git branch -d //Eliminar una rama
+
+git commit --amend //Los cambios hechos los pegara en el commit anterior
+
+git reflog //Me permite ver todas las cabeceras que ah tenido el commit
+
+git grep -n 'palabra'//te sirve para sber donde lo eh utilizado, -n me dice en que lineas
+
+git grep -c 'palabra'//Cuantas veces esta en cada archivo
+
+git log -S "palabra" //Ver todos los commits con una palabra
