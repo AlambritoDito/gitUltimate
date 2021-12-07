@@ -25,3 +25,5 @@ resto
 git push origin main //Para hacer el push
 
 pit pull origin main //Para hacer el main
+
+cuando  se trabaja con ramas estas se tienen que enviar a gitHub una por una 'git pull origin <nombreRama>'
