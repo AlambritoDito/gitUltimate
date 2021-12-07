@@ -25,3 +25,9 @@ resto
 git push origin main //Para hacer el push
 
 pit pull origin main //Para hacer el main
+
+git stash //Si me equivoque de rama donde queria esos cambios puedo utilizarlo para almacenar los cambios actuales
+
+git stash list //Es para ver los que tengo en stash
+
+
